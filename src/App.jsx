@@ -6,6 +6,10 @@ import Footer from './Components/Footer';
 import LendingPage from './Pages/LendingPage';
 import AboutUsPage from './Pages/AboutUsPage';
 import ContactPage from './Pages/ContactPage';
+import GetInTouchPage from './Pages/GetInTouchPage';
+import TwoWheelerPage from './Pages/TwoWheelerPage';
+import RickshawPage from './Pages/RickshawPage';
+import ThreeWheelerPage from './Pages/ThreeWheelerPage';
 
 
 function App() {
@@ -18,6 +22,10 @@ function App() {
           <Route path="/lending" element={<LendingPage />} />
           <Route path="/about-us" element={<AboutUsPage />} />
           <Route path='/contact-us' element={<ContactPage />} />
+          <Route path='get-in-touch' element={<GetInTouchPage />} />
+          <Route path='two-wheeler-loan' element={<TwoWheelerPage />} />
+          <Route path='rickshaw-loan' element={<RickshawPage />} />
+          <Route path='three-wheeler-loan' element={<ThreeWheelerPage />} />
         </Routes>
         <Footer />
       </div>

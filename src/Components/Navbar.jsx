@@ -109,7 +109,7 @@ const Navbar = () => {
         {/* Desktop Navigation Links */}
         <ul className="hidden lg:flex space-x-8 text-white font-inter">
           <li>
-            <Link to="/" className="hover:text-blue-400 transition-colors">
+            <Link to="/" className="hover:text-blue-400 transition-colors flex items-center py-2">
               Home
             </Link>
           </li>
@@ -123,7 +123,7 @@ const Navbar = () => {
           >
             <Link
               to="/about-us"
-              className="hover:text-blue-400 transition-colors flex items-center"
+              className="hover:text-blue-400 transition-colors flex items-center py-2"
             >
               About Us <RiArrowDropDownLine className="text-3xl" />
 
@@ -141,12 +141,6 @@ const Navbar = () => {
                   Who We Are
                 </a>
                 <a
-                  href="/about-us#our-journey"
-                  className="block text-white hover:text-blue-400 transition-colors"
-                >
-                  Our Journey
-                </a>
-                <a
                   href="/about-us#mission-and-vision"
                   className="block text-white hover:text-blue-400 transition-colors"
                 >
@@ -157,18 +151,6 @@ const Navbar = () => {
                   className="block text-white hover:text-blue-400 transition-colors"
                 >
                   Investors & Lenders
-                </a>
-                <a
-                  href="/about-us"
-                  className="block text-white hover:text-blue-400 transition-colors"
-                >
-                  Great Place to Work
-                </a>
-                <a
-                  href="/about-us#sdg-goals"
-                  className="block text-white hover:text-blue-400 transition-colors"
-                >
-                  SDG Goals
                 </a>
               </div>
             )}
@@ -184,7 +166,7 @@ const Navbar = () => {
           >
             <Link
               to="/lending"
-              className="hover:text-blue-400 transition-colors flex items-center"
+              className="hover:text-blue-400 transition-colors flex items-center py-2"
             >
               Sustainable Mobility Solutions{" "}
               <RiArrowDropDownLine className="text-3xl" />
@@ -201,7 +183,7 @@ const Navbar = () => {
                     to="/lending"
                     className=" text-white hover:text-blue-400 transition-colors  flex items-center justify-between group"
                   >
-                    EV Loans - Revfin Lending
+                    EV Loans - SMG Lending
                     <span className="ml-2 transform translate-x-0 group-hover:translate-x-1 transition-transform">
                       &rarr;
                     </span>
@@ -210,13 +192,13 @@ const Navbar = () => {
                     to="/ev-fleet"
                     className="block text-white hover:text-blue-400 transition-colors"
                   >
-                    EV Fleet - Revfin Mobility
+                    EV Fleet - SMG Mobility
                   </Link>
                   <Link
                     to="/ev-insurance"
                     className="block text-white hover:text-blue-400 transition-colors"
                   >
-                    EV Insurance - Revfinsure
+                    EV Insurance - SMGsure
                   </Link>
                   <Link
                     to="/ev-telematics"
@@ -240,19 +222,19 @@ const Navbar = () => {
 
                 <div className="flex-1 space-y-2 border-t md:border-t-0 md:border-l border-gray-700 pt-4 md:pt-0 md:pl-8">
                   <Link
-                    to="/electric-two-wheeler-loan"
+                    to="/two-wheeler-loan"
                     className="block text-white hover:text-blue-400 transition-colors"
                   >
                     Electric Two Wheeler Loan
                   </Link>
                   <Link
-                    to="/electric-rickshaw-loan"
+                    to="/rickshaw-loan"
                     className="block text-white hover:text-blue-400 transition-colors"
                   >
                     Electric Rickshaw Loan
                   </Link>
                   <Link
-                    to="/electric-three-wheeler-loan"
+                    to="three-wheeler-loan"
                     className="block text-white hover:text-blue-400 transition-colors"
                   >
                     Electric Three Wheeler Loan
@@ -271,7 +253,7 @@ const Navbar = () => {
           >
             <Link
               to="/resources"
-              className="hover:text-blue-400 transition-colors flex items-center"
+              className="hover:text-blue-400 transition-colors flex items-center py-2"
             >
               Resources <RiArrowDropDownLine className="text-3xl" />
             </Link>
@@ -332,18 +314,21 @@ const Navbar = () => {
             )}
             
           </li>
-          <Link
-                  to="/contact-us"
-                  className="block text-white hover:text-blue-400 transition-colors"
-                >
-                  Contact Us
-                </Link>
+          <li>
+            <Link
+              to="/contact-us"
+              className="hover:text-blue-400 transition-colors flex items-center py-2"
+            >
+              Contact Us
+            </Link>
+          </li>
         </ul>
 
         {/* Get In Touch Button */}
-        <button className=" lg:block bg-blue-950 text-white px-6 py-2 rounded-full cursor-pointer hover:bg-slate-900 transition-colors flex items-center font-inter">
+        <Link className=" lg:block bg-blue-950 text-white px-6 py-2 rounded-full cursor-pointer hover:bg-slate-900 transition-colors flex items-center font-inter"
+          to={"/get-in-touch"}>
           Get In Touch <span className="ml-2">&rarr;</span>
-        </button>
+        </Link>
 
         {/* Mobile menu icon (hamburger) - Hidden on large screens */}
         <div className="lg:hidden text-white text-2xl font-inter">☰</div>
