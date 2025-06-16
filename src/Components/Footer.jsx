@@ -1,6 +1,4 @@
-// src/components/Footer.jsx
 import React from 'react';
-// import RevfinLogoWhite from '../assets/revfin-logo-white.png'; // If you have a white version of the logo
 
 const Footer = () => {
   return (
@@ -36,30 +34,18 @@ const Footer = () => {
           {/* Column 1: Logo and Address */}
           <div>
             <div className="flex items-center mb-4">
-              {/* Replace with your white Revfin Logo */}
               <img src="/smglogo.jpg" alt="SMG FINANCE Logo" className="h-8" /> 
             </div>
             <p className="text-white text-lg font-semibold mb-2">SMG FINANCE</p>
             <p className="text-sm">Office 370 , Eminent Mall , Hoshiarpur 146001</p>
-            <div className="flex space-x-4 mt-4">
-              {/* Social media icons (placeholders) */}
-              <a href="#" className="text-gray-400 hover:text-white text-xl">🌐</a>
-              <a href="#" className="text-gray-400 hover:text-white text-xl">🐦</a>
-              <a href="#" className="text-gray-400 hover:text-white text-xl">🔗</a>
-              <a href="#" className="text-gray-400 hover:text-white text-xl">📸</a>
-            </div>
-            <div className="flex items-center space-x-2 mt-4">
-                {/* Certifications - replace with actual image paths */}
-                <img src="/path/to/your/great-place-to-work.png" alt="Great Place to Work" className="h-12" />
-                <img src="/path/to/your/iso-certified.png" alt="ISO Certified" className="h-12" />
-            </div>
+            
           </div>
 
           {/* Column 2: About */}
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">About</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Revfin Capital</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">SMG Finance Capital</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Know Our Team</a></li>
@@ -72,11 +58,11 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Revfin Lending</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Revfin Mobility</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Revfinsure</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">RevioT</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Revshaala</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">SMG Finance Lending</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">SMG Finance Mobility</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">SMG Financesure</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">SMGioT</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">SMGshaala</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Dealer Network</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Apply for Loan</a></li>
               <li><a href="#" className="hover:text-white transition-colors">EMI Calculator</a></li>
@@ -102,13 +88,8 @@ const Footer = () => {
         </div>
 
         {/* Copyright and App Store links */}
-        <div className="border-t border-gray-700 mt-12 pt-8 text-center text-xs">
+        <div className="border-t border-gray-700 mt-4 pt-4 text-center text-xs">
           <p className="mb-4">© 2023 SMG FINANCE. All Rights Reserved.</p>
-          <div className="flex justify-center space-x-4">
-            {/* Replace with actual App Store and Google Play logos */}
-            <a href="#"><img src="/path/to/your/app-store-badge.png" alt="App Store" className="h-8" /></a>
-            <a href="#"><img src="/path/to/your/google-play-badge.png" alt="Google Play" className="h-8" /></a>
-          </div>
         </div>
       </div>
     </footer>

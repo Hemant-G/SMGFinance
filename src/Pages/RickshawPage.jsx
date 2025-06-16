@@ -89,7 +89,7 @@ const RickshawPage = () => {
           <div className="lg:w-2/3">
             <h2 className="text-3xl font-bold text-blue-900 mb-4">Multiply your income with our Electric Rickshaw Loan</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The E-Rickshaw Loan from RevFin is a closed-ended credit product, where a fixed amount is borrowed and repaid through EMI over the loan term. Interest and applicable fees are charged on the loan amount. The loan is available to individuals purchasing E-Rickshaw for commercial use through a network of approved dealerships and OEM partners across 25 states. Revfin loans are offered even to customers without a credit history, by using an innovative underwriting approach that combines biometric and psychometric assessments. To choose your E-Rickshaw, visit your nearest dealer. <a href="#" className="text-blue-700 hover:underline">Find your nearest dealer here</a>.
+              The E-Rickshaw Loan from SMG Finance is a closed-ended credit product, where a fixed amount is borrowed and repaid through EMI over the loan term. Interest and applicable fees are charged on the loan amount. The loan is available to individuals purchasing E-Rickshaw for commercial use through a network of approved dealerships and OEM partners across 25 states. SMG Finance loans are offered even to customers without a credit history, by using an innovative underwriting approach that combines biometric and psychometric assessments. To choose your E-Rickshaw, visit your nearest dealer. <a href="#" className="text-blue-700 hover:underline">Find your nearest dealer here</a>.
             </p>
             <button className="bg-blue-900 text-white py-3 px-6 rounded-lg hover:bg-blue-800 transition duration-300 shadow-md">
               Apply For Loan &rarr;
@@ -105,7 +105,7 @@ const RickshawPage = () => {
 
         {/* Key Highlights Section */}
         <section className="mb-16">
-          <h2 className="text-4xl font-bold text-center text-blue-900 mb-10">Key Highlights of Revfin E-Rickshaw Loans</h2>
+          <h2 className="text-4xl font-bold text-center text-blue-900 mb-10">Key Highlights of SMG Finance E-Rickshaw Loans</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="flex flex-col items-center text-center p-6 bg-blue-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="p-4 bg-blue-100 rounded-full mb-4">
@@ -154,7 +154,7 @@ const RickshawPage = () => {
 
         {/* Benefits Section */}
         <section className="mb-16">
-          <h2 className="text-4xl font-bold text-center text-blue-900 mb-10">Benefits of Financing Your E-Rickshaw with Revfin</h2>
+          <h2 className="text-4xl font-bold text-center text-blue-900 mb-10">Benefits of Financing Your E-Rickshaw with SMG Finance</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="flex flex-col gap-8">
               <div className="flex items-start gap-4">
@@ -345,7 +345,7 @@ const RickshawPage = () => {
       {/* Footer Section */}
       <footer className="bg-blue-900 text-white py-8 px-4 md:px-8 lg:px-16">
         <div className="container mx-auto text-center text-sm">
-          &copy; {new Date().getFullYear()} Revfin. All rights reserved.
+          &copy; {new Date().getFullYear()} SMG Finance. All rights reserved.
         </div>
       </footer>
     </div>

@@ -15,15 +15,7 @@ const HeroSection = () => {
         <p className="text-2xl font-bold max-w-2xl mb-8 text-gray-300">
           Financing Electric Vehicles for First, Mid and Last Mile Mobility
         </p>
-        {/* The floating 'About Us' button with arrow seems like a fixed or animated element.
-            For simplicity, we'll omit its exact positioning here but can add it with absolute positioning if needed. */}
-        {/* Example:
-        <div className="absolute right-10 top-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-primary flex items-center justify-center text-center text-sm font-bold animate-pulse">
-            About Us →
-        </div>
-        */}
       </div>
-      {/* A placeholder for the large white box that seems to be a section header/intro for the next part */}
     </section>
   );
 };

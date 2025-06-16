@@ -9,18 +9,18 @@ import { FaLeaf } from 'react-icons/fa';
 const solutions = [
   {
     icon: CurrencyDollarIcon, // Heroicon
-    title: 'Revfin Lending',
+    title: 'SMG Finance Lending',
     description: 'Quick, affordable loans for commercial EVs are provided, promoting green growth and mobility for underserved communities, all in just 16 minutes.',
   },
   {
     icon: TruckIcon, // Heroicon
-    title: 'Revfin Mobility',
+    title: 'SMG Finance Mobility',
     description: 'Fleet acceleration is made easy with financing, insurance, telematics, battery swaps, OEM partnerships, and nationwide coverage.',
   },
   {
     icon: ShieldCheckIcon, // Heroicon
-    title: 'Revfinsure',
-    description: 'IRDAI approved Revfinsure lets EV loan customers compare top policies, helping them secure the best coverage for their green journey.',
+    title: 'SMG Financesure',
+    description: 'IRDAI approved SMG Financesure lets EV loan customers compare top policies, helping them secure the best coverage for their green journey.',
   },
   {
     icon: WifiIcon, // Heroicon
@@ -34,7 +34,7 @@ const solutions = [
   },
   {
     icon: FaLeaf, // Now using FaLeaf from react-icons/fa
-    title: 'Revfin Ecosystem',
+    title: 'SMG Finance Ecosystem',
     description: 'A greener future is being built with strong partners in charging infrastructure, green truck upgrades, and battery swapping, revolutionising the industry.',
   },
 ];

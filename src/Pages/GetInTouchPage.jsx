@@ -54,13 +54,13 @@ const GetInTouchPage = () => {
 
   const userTypes = ['Select',
     'A Media Personnel',
-    'A Revfin Customer',
+    'A SMG Finance Customer',
     'A Dealer',
     'An OEM Partner',
     'A Fleet',
     'Others',
     'Looking For A Job',
-    'Looking for Revfin insurance',];
+    'Looking for SMG Finance insurance',];
 
   return (
     <div className="min-h-screen bg-gradient-to-l from-slate-800 to-slate-950 flex items-center justify-center py-10 px-4 font-inter">

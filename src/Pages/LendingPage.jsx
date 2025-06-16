@@ -200,7 +200,7 @@ const LendingPage = () => {
               </h3>
               <p className="text-gray-700">{howItWorksData[0].description}</p>
             </div>
-            {/* Download the Revfin App */}
+            {/* Download the SMG Finance App */}
             <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center col-span-1 md:col-span-2 lg:col-span-1">
               <h3 className="text-xl font-semibold mb-2">
                 Download the SMG Finance App

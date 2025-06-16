@@ -26,7 +26,6 @@ const AboutUsPage = () => {
     },
   ];
 
-  // Data for "Revfin's Journey So Far" section (adjusted for SMG Finance)
   const journeyData = [
     { year: 2017, events: [] },
     { year: 2018, events: [] },

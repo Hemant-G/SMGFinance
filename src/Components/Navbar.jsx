@@ -204,16 +204,16 @@ const Navbar = () => {
                     to="/ev-telematics"
                     className="block text-white hover:text-blue-400 transition-colors"
                   >
-                    EV Telematics - RevIoT
+                    EV Telematics - SMGIoT
                   </Link>
                   <Link
                     to="/ev-workshop"
                     className="block text-white hover:text-blue-400 transition-colors"
                   >
-                    EV Workshop - Revshaala
+                    EV Workshop - SMGshaala
                   </Link>
                   <Link
-                    to="/ev-ecosystem-development"
+                    to="/ev-ecosystem"
                     className="block text-white hover:text-blue-400 transition-colors"
                   >
                     EV Ecosystem Development

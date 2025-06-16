@@ -145,7 +145,7 @@ const ThreeWheelerPage = () => {
               <div className="md:w-3/5 ">
                 <h2 className="text-3xl font-bold text-blue-900 mb-4">Drive your income with our Electric Three-Wheeler Loan</h2>
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                The Electric Three-Wheeler Loan offered by Revfin is a closed-ended credit product. With this loan, a fixed amount is borrowed and repaid in equal monthly installments over the loan term. Interest and applicable fees are charged on the loan amount. This loan is exclusively available through our approved dealerships.
+                The Electric Three-Wheeler Loan offered by SMG Finance is a closed-ended credit product. With this loan, a fixed amount is borrowed and repaid in equal monthly installments over the loan term. Interest and applicable fees are charged on the loan amount. This loan is exclusively available through our approved dealerships.
                 </p>
                 <button className="bg-blue-900 hover:bg-blue-700 cursor-pointer text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
                   Get in Touch &rarr;
