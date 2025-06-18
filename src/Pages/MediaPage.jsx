@@ -118,7 +118,7 @@ function MediaPage() {
       <div className="absolute inset-0 bg-gradient-to-l from-gray-800 to-black  opacity-70"></div> {/* Dark overlay */}
 
       <div className="container mx-auto z-10 px-4 ">
-        <h1 className="text-7xl font-bold leading-tight mb-6">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4">
           Media Room
         </h1>
       </div>

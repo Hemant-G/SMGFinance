@@ -397,12 +397,6 @@ const CareersPage = () => {
         )}
       </main>
 
-      {/* Footer Section */}
-      <footer className="bg-blue-900 text-white py-8 px-4 md:px-8 lg:px-16">
-        <div className="container mx-auto text-center text-sm">
-          &copy; {new Date().getFullYear()} SMG Finance. All rights reserved.
-        </div>
-      </footer>
     </div>
   );
 };

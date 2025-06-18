@@ -74,12 +74,12 @@ const InsurancePage = () => {
     <div className="min-h-screen bg-white font-sans">
         {/* Header Section */}
       <section
-      className="relative h-70 bg-blue-950 px-20 flex items-center justify-start text-white p-4 "
+      className="relative min-h-[40vh] md:min-h-[60vh] lg:min-h-[70vh] bg-blue-950 px-4 md:px-10 lg:px-20 flex items-center justify-center text-white p-4 "
     >
       <div className="absolute inset-0 bg-gradient-to-l from-gray-800 to-black  opacity-70"></div> {/* Dark overlay */}
 
       <div className="container mx-auto z-10 px-4 ">
-        <h1 className="text-7xl font-bold leading-tight mb-6">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 md:mb-6">
         EV Insurance
         </h1>
         <p className="text-2xl font-bold max-w-2xl mb-8 text-gray-300">

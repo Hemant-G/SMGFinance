@@ -11,7 +11,7 @@ import Footer from '../Components/Footer'
 function HomePage() {
   return (
     <div >
-       <div className="font-sans antialiased text-white bg-blue-950 overflow-x-hidden">
+       <div className="font-sans antialiased text-white bg-blue-950 overflow-x-hidden w-full">
       <main>
         <HeroSection />
         <SolutionsSection />

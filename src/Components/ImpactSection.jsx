@@ -60,14 +60,14 @@ const ImpactSection = () => {
 
   return (
     <section
-      className="py-16 px-20 md:py-24  bg-cover bg-center relative"
+      className="py-12 px-4 sm:px-8 md:px-20 md:py-24 bg-cover bg-center relative"
     >
       <div className="absolute inset-0 bg-white"></div> 
-      <h2 className="relative z-10 text-4xl font-bold text-center mb-12 text-blue-950"> 
+      <h2 className="relative z-10 text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12 text-blue-950"> 
           Tracking Progress with Impact
         </h2>
       {/* Container for background image layers and content */}
-      <div className="h-130 container rounded-3xl z-10 relative overflow-hidden"> {/* Removed direct bg image & transition from here */}
+      <div className="h-[500px] sm:h-[400px] md:h-130 container rounded-3xl z-10 relative"> {/* Adjusted height for responsiveness, removed overflow-hidden */}
         {/* Background Layer 0 */}
         <div
           className="absolute inset-0 bg-cover bg-center transition-opacity duration-500 ease-in-out"
@@ -79,22 +79,22 @@ const ImpactSection = () => {
           style={{ backgroundImage: layerImages[1] ? `url(${layerImages[1]})` : 'none', opacity: activeLayer === 1 ? 1 : 0, zIndex: 1 }}
         />
         {/* Content - on top of background layers */}
-        <div className="relative z-10 h-full flex flex-row w-full text-center"> {/* z-10 to be above z-1 layers */}
+        <div className="relative z-10 h-full flex flex-col sm:flex-row w-full text-center"> {/* Flex-col for mobile, flex-row for sm and up */}
           {impactStats.map((stat, index) => (
             <div
               key={index}
-              className={`w-1/4 flex flex-col items-center py-6 hover:bg-gradient-to-r border from-blue-800/50 to-blue-950/50  `} 
+              className={`w-full sm:w-1/4 flex flex-col items-center justify-center py-4 sm:py-6 hover:bg-gradient-to-r border-t sm:border-t-0 sm:border-l from-blue-800/50 to-blue-950/50`} 
               onMouseEnter={() => handleMouseEnter(index)}
             >
               <div>
-                <p className="text-6xl font-bold">{stat.value}</p>
-                {stat.label && <p className="text-xl mt-1">{stat.label}</p>} 
+                <p className="text-4xl sm:text-5xl md:text-6xl font-bold">{stat.value}</p>
+                {stat.label && <p className="text-lg sm:text-xl mt-1">{stat.label}</p>} 
                 
               </div>
 
               {stat.subLabel && (
                 <div className="mt-auto">
-                  <p className="text-4xl font-bold">{stat.subLabel}</p>
+                  <p className="text-2xl sm:text-3xl md:text-4xl font-bold">{stat.subLabel}</p>
                 </div>
               )}
               

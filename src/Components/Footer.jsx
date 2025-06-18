@@ -3,10 +3,10 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-blue-950 text-gray-400 py-16 px-4">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Customer Grievance Redressal */}
         <div className="bg-secondary p-6 rounded-lg mb-12 border border-gray-700">
-          <h3 className="text-xl font-semibold text-white mb-4">Customer Grievance Redressal</h3>
+          <h3 className="text-lg md:text-xl font-semibold text-white mb-4">Customer Grievance Redressal</h3>
           <p className="text-sm mb-4">
             Our dedicated customer service team is here to assist you with any concerns or queries you may have. You can reach them via email of <a href="mailto:smgfinanceltd@gmail.com" className="text-primary hover:underline">smgfinanceltd@gmail.com</a> or by calling <a href="tel:1882318706" className="text-primary hover:underline">1882318706</a>. If the initial resolution does not meet your expectations, our Grievance Redressal Officer is available to address escalated matters. The details below are:
           </p>
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1: Logo and Address */}
           <div>
             <div className="flex items-center mb-4">

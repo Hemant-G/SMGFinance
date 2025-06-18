@@ -71,7 +71,7 @@ const RickshawPage = () => {
     <div className="min-h-screen bg-white font-sans">
       {/* Header Section */}
       <section
-      className="relative h-100 bg-blue-950 px-20 flex items-center justify-start text-white p-4 "
+      className="relative h-120 bg-blue-950 px-20 flex items-center justify-start text-white p-4 "
     >
       <div className="absolute inset-0 bg-gradient-to-l from-gray-800 to-black  opacity-70"></div> {/* Dark overlay */}
 

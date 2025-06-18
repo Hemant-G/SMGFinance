@@ -23,7 +23,7 @@ function InstructorCard({ name, specialty, imageUrl, social }) {
 
   return (
     <div
-      className="relative w-80  mx-2 my-2 overflow-hidden rounded-md shadow-md transition-transform duration-300 cursor-pointer"
+      className="relative w-full sm:w-80 mx-auto sm:mx-2 my-2 overflow-hidden rounded-md shadow-md transition-transform duration-300 cursor-pointer"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -31,7 +31,7 @@ function InstructorCard({ name, specialty, imageUrl, social }) {
         src={imageUrl}
         alt={name}
         className="w-full h-auto object-cover"
-        style={{ maxHeight: "300px" }}
+        style={{ maxHeight: "250px", sm: {maxHeight: "300px"} }}
       />
       <div
         className={`absolute bottom-0 left-0 w-full  p-4 transition-all duration-300 flex flex-col items-center ${isHovered? 'bg-blue-950/75': 'bg-white/85'}`}

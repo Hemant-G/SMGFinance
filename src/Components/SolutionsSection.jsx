@@ -41,9 +41,9 @@ const solutions = [
 
 const SolutionsSection = () => {
   return (
-    <section className="bg-white py-16 pt-32 md:pt-24 -mt-24 md:-mt-12 relative z-10">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-blue-950 mb-12">
+    <section className="bg-white py-12 md:py-16 pt-24 md:pt-24 -mt-20 md:-mt-12 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-950 mb-8 md:mb-12">
           Solutions For Eco-Friendly Journeys
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -51,7 +51,7 @@ const SolutionsSection = () => {
             const IconComponent = solution.icon;
             return (
               <div key={index} className="bg-white p-8 rounded-lg shadow-blue-200 shadow-md border border-gray-200 hover:border hover:border-blue-500 ">
-                {/* Render the icon component and apply Tailwind classes */}
+                
                 <div className=" text-blue-900 mb-4 ">
                   {/* Heroicons typically need explicit size classes (e.g., w-12 h-12)
                       React Icons often inherit font-size (text-4xl) */}
@@ -61,8 +61,8 @@ const SolutionsSection = () => {
                     <IconComponent className="w-12 h-12" /> // Explicitly size Heroicons
                   )}
                 </div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">{solution.title}</h3>
-                <p className="text-gray-600 mb-4 text-sm">{solution.description}</p>
+                <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2">{solution.title}</h3>
+                <p className="text-gray-600 mb-4 text-sm leading-relaxed">{solution.description}</p>
                 <a href="#" className=" font-medium flex items-center hover:underline">
                   Read More <span className="ml-2 text-xl">→</span>
                 </a>
